@@ -31,23 +31,27 @@ public class Ejemplo04 {
 
         switch (tipoRegion) {
             case 1:
-                region = "Región Sierra";
+                region = "Usted seleccionó: Región Sierra";
                 break;
 
             case 2:
-                region = "Región Costa";
+                region = "Usted seleccionó: Región Costa";
                 break;
 
             case 3:
-                region = "Región Amazónica";
+                region = "Usted seleccionó: Región Amazónica";
                 break;
 
             case 4:
-                region = "Región Insular";
+                region = "Usted seleccionó: Región Insular";
+                break;
+                
+            default:
+                region = "Error, no existe región.";
                 break;
         }
 
-        System.out.printf("Usted seleccionó: %s\n", region);
+        System.out.printf("%s\n", region);
     }
 
 }
