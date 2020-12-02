@@ -21,6 +21,7 @@ public class Ejemplo03 {
         String ciudad;
         String pais;
         String region = "";
+        String cadena = "";
         int tipoRegion;
         System.out.println("Ingrese el tipo los siguientes datos para imprimir "
                 + "la región del Ecuador.\n"
@@ -47,8 +48,14 @@ public class Ejemplo03 {
                 }
             }
         }
+        if ((tipoRegion >=0) && (tipoRegion <= 4)){
+            cadena = String.format("Usted seleccionó: %s\n", region);
+        } else {
+            cadena = region;
+        }
         
-        System.out.printf("Usted seleccionó: %s\n", region);
+        System.out.printf("%s\n", cadena);
+    
     }
     
 }
