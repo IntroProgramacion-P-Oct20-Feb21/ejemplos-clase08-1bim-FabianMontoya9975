@@ -35,6 +35,7 @@ public class Ejemplo05 {
                 case "si":
                 case "s":
                     bandera = false;
+                    break;
             }
         }
     }
