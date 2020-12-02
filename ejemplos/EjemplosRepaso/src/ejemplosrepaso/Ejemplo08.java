@@ -31,12 +31,15 @@ public class Ejemplo08 {
             System.out.println("Ingrese el sueldo del trabajador");
             sueldo = entrada.nextDouble();
             System.out.println("Ingrese la ciudad del trabajador");
+            entrada.nextLine();
             ciudad = entrada.nextLine();
 
-            cadena01 = String.format("%s (%.2f) -%s-\n",
+            cadena01 = String.format("%s%s (%.2f) -%s-\n",
+                    cadena01,
                     nombre,
                     sueldo,
                     ciudad);
+            contador = contador + 1;
 
         }
         System.out.printf("%s\n", cadena01);

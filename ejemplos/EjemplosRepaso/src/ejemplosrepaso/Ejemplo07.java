@@ -38,15 +38,17 @@ public class Ejemplo07 {
         int operacion02;
         int tabla = 10;
         String cadena01 = "";
+        String cadena02 = "";
+        String cadenaFinal = "";
         for (int i = 1; i <= 5; i++) {
             operacion01 = tabla + i;
             operacion02 = tabla * i;
             cadena01 = String.format("%s%d + %d = %d\n", cadena01, 
                     tabla, i, operacion01);
-            cadena01 = String.format("%s%d * %d = %d\n", cadena01, 
+            cadena02 = String.format("%s%d * %d = %d\n", cadena02, 
                     tabla, i, operacion02);
         }
-        
-        System.out.printf("%s\n", cadena01);
+        cadenaFinal = String.format("%s\n%s", cadena01, cadena02);
+        System.out.printf("%s\n", cadenaFinal);
     }
 }
