@@ -25,10 +25,9 @@ public class Ejemplo01 {
         ciudad = entrada.nextLine();
         System.out.println("Ingresar nombre del pais: ");
         pais = entrada.nextLine();
-        System.out.printf("%s,%s%s%s",
+        System.out.printf("%s ciudad\ndel país:\n\t%s\n",
                 ciudad,
-                " ciudad\ndel país:\n\t",
-                pais, "\n");
+                pais);
     }
     
 }
