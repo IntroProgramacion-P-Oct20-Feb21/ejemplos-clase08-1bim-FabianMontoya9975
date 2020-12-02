@@ -28,7 +28,7 @@ public class Ejemplo05 {
         boolean bandera = true;
         while (bandera) {
             System.out.println("Usted está en el ciclo\n"
-                    + "Si desea salir del ciclo, digite Si ó s");
+                    + "Si desea salir del ciclo, digite Si ó S");
             salir = entrada.nextLine();
             salir = salir.toLowerCase();
             switch (salir){
