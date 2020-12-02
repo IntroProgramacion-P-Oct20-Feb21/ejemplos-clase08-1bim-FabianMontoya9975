@@ -43,7 +43,7 @@ public class Ejemplo03 {
                     if (tipoRegion==4) {
                         region = "Región Insular";
                     } else {
-                        region = "Error, no existe región";
+                        region = "Error, no existe región.";
                     }
                 }
             }
